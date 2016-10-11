@@ -33,7 +33,7 @@ class Database(bob.db.base.SQLiteDatabase):
                 groups=Client.group_choices, cls=('real',), recording_devices=File.recording_device_choices,
                 sessions=File.session_choices, gender=Client.gender_choices, attack_devices=File.attack_device_choices,
                 asv_devices=File.asv_device_choices, environments=File.environment_choices, clients=None):
-        """Returns a list of unique :py:class:`.File` objects for the specific
+        """Returns a list of unique `File` objects for the specific
         query by the user.
 
         Keyword parameters:
@@ -78,7 +78,7 @@ class Database(bob.db.base.SQLiteDatabase):
             client identifiers from which files should be retrieved. If omitted, set
             to None or an empty list, then data from all clients is retrieved.
 
-        Returns: A list of :py:class:`.File` objects.
+        Returns: A list of `File` objects.
         """
 
         self.assert_validity()
