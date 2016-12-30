@@ -15,22 +15,23 @@
    :target: https://pypi.python.org/pypi/bob.db.voicepa
 
 
-==================================
-voicePA Database Interface for Bob
-==================================
+====================================
+ voicePA Database Interface for Bob
+====================================
 
 This package is part of the signal-processing and machine learning toolbox
 Bob_. It contains the access API and descriptions for the voicePA_ Database.
 The database focuses on speech presentation attacks. For the genuine data, it
 contains speech recordings from AVspoof_, which include speech from 44 persons
-(31 males and 13 females) performed during the course of two months in four different
-sessions.
+(31 males and 13 females) performed during the course of two months in four
+different sessions.
 
-The database contains large number of different presentation attacks, obtained by
-replaying different type of speech, including recorded speech, voice conversion, and speech synthesis,
-to microphones of different devices (laptop, iPhone 3GS, and Samsung S3) using different
-speakers (high quality speakers, laptop, iPhone 6S, iPhone 3GS, and Samsung S3) and in different
-environments (two office rooms and a conference room).
+The database contains large number of different presentation attacks, obtained
+by replaying different type of speech, including recorded speech, voice
+conversion, and speech synthesis, to microphones of different devices (laptop,
+iPhone 3GS, and Samsung S3) using different speakers (high quality speakers,
+laptop, iPhone 6S, iPhone 3GS, and Samsung S3) and in different environments
+(two office rooms and a conference room).
 
 This package contains the Bob_-compliant interface implementation with methods
 to use the database directly from Python with provided protocols.

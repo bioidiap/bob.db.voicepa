@@ -33,52 +33,54 @@ class Database(bob.db.base.SQLiteDatabase):
                 groups=Client.group_choices, cls=('real',), recording_devices=File.recording_device_choices,
                 sessions=File.session_choices, gender=Client.gender_choices, attack_devices=File.attack_device_choices,
                 asv_devices=File.asv_device_choices, environments=File.environment_choices, clients=None):
-        """Returns a list of unique `File` objects for the specific
-        query by the user.
+        """Returns a list of unique :py:class:`File` objects for the specific query by the user
 
-        Keyword parameters:
 
-        protocol
-            The protocol for the attack. One of the ones returned by protocols(). If
-            you set this parameter to an empty string or the value None, we reset
-            it to the default, "grandtest".
+        Parameters:
 
-        groups
-            One of the protocol subgroups of data as returned by groups() or a
-            tuple with several of them.  If you set this parameter to an empty string
-            or the value None, we reset it to the default which is to get all.
+          protocol (str): The protocol for the attack. one of the ones returned
+            by protocols(). if you set this parameter to an empty string or the
+            value none, we reset it to the default, "grandtest".
 
-        cls
-            Either "attack", "real", "enroll", "probe", or a combination of those (in a
-            tuple). Defines the class of data to be retrieved.  If you set this
-            parameter to an empty string or the value None, we reset it to the
-            default, ("real").
+          groups (str): One of the protocol subgroups of data as returned by
+            groups() or a tuple with several of them.  if you set this
+            parameter to an empty string or the value none, we reset it to the
+            default which is to get all.
 
-        attack_data
-            One of the valid attack types as returned by models.Attack.attack_datas() or all,
-            as a tuple.  If you set this parameter to an empty string or the value
-            None, we reset it to the default, which is to get all.
+          cls (str): Either ``attack``, ``real``, ``enroll``, ``probe``, or a
+            combination of those (in a tuple). defines the class of data to be
+            retrieved. If you set this parameter to an empty string or the
+            value none, we reset it to the default, (``real``).
 
-        asv_devices
-            One or more devices that are running automatic verification system, i.e., these are the devices that
-            are being attacked.
+          attack_data (str): One of the valid attack types as returned by
+            ``models.attack.attack_datas()`` or all, as a tuple.  if you set
+            this parameter to an empty string or the value none, we reset it to
+            the default, which is to get all.
 
-        attack_devices
-            One or more devices that are used to play the presentation attack.
+          asv_devices (str): One or more devices that are running automatic
+            verification system, i.e., these are the devices that are being
+            attacked.
 
-        environments
-            One or more locations (rooms) where the attacks were recorded.
+          attack_devices (str): One or more devices that are used to play the
+            presentation attack.
 
-        recording_devices
-            One of the recording_devices used to record the data (laptop, phone1, and phone2)
-            or a combination of them (in a tuple), which is also the default.
+          environments (str): One or more locations (rooms) where the attacks
+            were recorded.
 
-        clients
-            If set, should be a single integer or a list of integers that define the
-            client identifiers from which files should be retrieved. If omitted, set
-            to None or an empty list, then data from all clients is retrieved.
+          recording_devices (str): One of the recording_devices used to record
+            the data (laptop, phone1, and phone2) or a combination of them (in
+            a tuple), which is also the default.
 
-        Returns: A list of `File` objects.
+          clients (int): If set, should be a single integer or a list of
+            integers that define the client identifiers from which files should
+            be retrieved. if omitted, set to none or an empty list, then data
+            from all clients is retrieved.
+
+
+        Returns:
+
+          list of :py:class:`File`: Corresponds to the selected objects
+
         """
 
         self.assert_validity()
