@@ -5,10 +5,10 @@
    :target: http://pythonhosted.org/bob.db.voicepa/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.png
    :target: https://www.idiap.ch/software/bob/docs/latest/bob/bob.db.voicepa/master/index.html
-.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/build.svg
-   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/master
-.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/coverage.svg
-   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/master
+.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/v1.0.1/build.svg
+   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/v1.0.1
+.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/v1.0.1/coverage.svg
+   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/v1.0.1
 .. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.voicepa
 .. image:: http://img.shields.io/pypi/v/bob.db.voicepa.png
