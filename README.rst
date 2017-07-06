@@ -2,9 +2,9 @@
 .. Mon Oct 10 22:06:22 CEST 2016
 
 .. image:: http://img.shields.io/badge/docs-stable-yellow.png
-   :target: http://pythonhosted.org/bob.db.voicepa/index.html
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.voicepa/stable/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.png
-   :target: https://www.idiap.ch/software/bob/docs/latest/bob/bob.db.voicepa/master/index.html
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.voicepa/master/index.html
 .. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/build.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/master
 .. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/coverage.svg
@@ -12,8 +12,6 @@
 .. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.voicepa
 .. image:: http://img.shields.io/pypi/v/bob.db.voicepa.png
-   :target: https://pypi.python.org/pypi/bob.db.voicepa
-.. image:: http://img.shields.io/pypi/dm/bob.db.voicepa.png
    :target: https://pypi.python.org/pypi/bob.db.voicepa
 
 
@@ -42,7 +40,7 @@ to use the database directly from Python with provided protocols.
 Installation
 ------------
 
-Complete Bob's `installation`_ instructions. Then, to install this pacakge,
+Complete Bob's `installation`_ instructions. Then, to install this package,
 run::
 
   $ conda install bob.db.voicepa
