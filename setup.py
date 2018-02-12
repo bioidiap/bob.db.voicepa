@@ -35,9 +35,6 @@ setup(
     install_requires=install_requires,
 
     entry_points={
-        'console_scripts': [
-            'debug_voicepa = bob.db.voicepa.debug_voicepa:main',
-        ],
         # bob database declaration
         'bob.db': [
             'voicepa = bob.db.voicepa.driver:Interface',
