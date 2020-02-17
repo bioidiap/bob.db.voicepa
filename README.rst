@@ -1,14 +1,14 @@
 .. vim: set fileencoding=utf-8 :
 .. Mon Oct 10 22:06:22 CEST 2016
 
-.. image:: http://img.shields.io/badge/docs-stable-yellow.png
-   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.voicepa/stable/index.html
+.. image:: http://img.shields.io/badge/docs-v1.1.4-yellow.png
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.voicepa/v1.1.4/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.png
    :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.voicepa/master/index.html
-.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/build.svg
-   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/master
-.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/master/coverage.svg
-   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/master
+.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/v1.1.4/build.svg
+   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/v1.1.4
+.. image:: https://gitlab.idiap.ch/bob/bob.db.voicepa/badges/v1.1.4/coverage.svg
+   :target: https://gitlab.idiap.ch/bob/bob.db.voicepa/commits/v1.1.4
 .. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.voicepa
 .. image:: http://img.shields.io/pypi/v/bob.db.voicepa.png
